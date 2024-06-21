@@ -1,0 +1,14 @@
+.gh-search-form {
+  margin: 2rem 0;
+}
+
+.gh-search-form > label {
+  display: flex;
+  font-size: 2rem;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.gh-search-form input {
+  font-size: 1.5rem;
+}

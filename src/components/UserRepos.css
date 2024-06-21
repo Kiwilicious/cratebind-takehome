@@ -1,0 +1,38 @@
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.repo {
+  border: 1px solid pink;
+  width: 500px;
+  padding: 1rem;
+}
+
+.repo > a {
+  text-decoration: none;
+  color: unset;
+}
+
+.error {
+  color: red;
+  font-weight: 700;
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  animation: loader 2s infinite;
+  font-size: 2rem;
+}
